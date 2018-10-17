@@ -602,6 +602,10 @@ CGSizeFlatSpecificScale(CGSize size, float scale) {
                 path.lineCapStyle = kCGLineCapRound;
             }
                 break;
+            case QMUIImageShapeRect: {
+                path = [UIBezierPath bezierPathWithRect:CGRectMakeWithSize(size)];
+            }
+                break;
             default:
                 break;
         }

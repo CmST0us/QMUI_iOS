@@ -24,7 +24,8 @@ typedef NS_ENUM(NSInteger, QMUIImageShape) {
     QMUIImageShapeCheckmark,            // 列表 cell 右边的checkmark
     QMUIImageShapeDetailButtonImage,    // 列表 cell 右边的 i 按钮图片
     QMUIImageShapeNavBack,              // 返回按钮的箭头
-    QMUIImageShapeNavClose              // 导航栏的关闭icon
+    QMUIImageShapeNavClose,             // 导航栏的关闭icon
+    QMUIImageShapeRect,                 // 矩形
 };
 
 typedef NS_OPTIONS(NSInteger, QMUIImageBorderPosition) {
