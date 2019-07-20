@@ -218,6 +218,10 @@ typedef NS_ENUM(NSInteger, QMUINavigationButtonPosition) {
     return [[UIBarButtonItem alloc] initWithCustomView:button];
 }
 
++ (instancetype)qmui_itemWithSystemItem:(UIBarButtonSystemItem)systemItem target:(id)target action:(SEL)action {
+    return [[UIBarButtonItem alloc] initWithBarButtonSystemItem:systemItem target:target action:action];
+}
+
 + (instancetype)qmui_itemWithImage:(nullable UIImage *)image target:(nullable id)target action:(nullable SEL)action {
     return [[UIBarButtonItem alloc] initWithImage:image style:UIBarButtonItemStylePlain target:target action:action];
 }

@@ -61,6 +61,7 @@ typedef NS_ENUM(NSUInteger, QMUINavigationButtonType) {
 @interface UIBarButtonItem (QMUINavigationButton)
 
 + (instancetype)qmui_itemWithButton:(nullable QMUINavigationButton *)button target:(nullable id)target action:(nullable SEL)action;
++ (instancetype)qmui_itemWithSystemItem:(UIBarButtonSystemItem)systemItem target:(nullable id)target action:(nullable SEL)action;
 + (instancetype)qmui_itemWithImage:(nullable UIImage *)image target:(nullable id)target action:(nullable SEL)action;
 + (instancetype)qmui_itemWithTitle:(nullable NSString *)title target:(nullable id)target action:(nullable SEL)action;
 + (instancetype)qmui_itemWithBoldTitle:(nullable NSString *)title target:(nullable id)target action:(nullable SEL)action;
