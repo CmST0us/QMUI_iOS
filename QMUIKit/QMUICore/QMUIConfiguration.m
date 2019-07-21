@@ -223,7 +223,7 @@ static BOOL QMUI_hasAppliedInitialTemplate;
     self.tableViewEstimatedHeightEnabled = YES;
     
     self.tableViewBackgroundColor = nil;
-    self.tableViewGroupedBackgroundColor = nil;
+    self.tableViewGroupedBackgroundColor = [UIColor qmui_colorWithHexString:@"#EFEFF3"];
     self.tableSectionIndexColor = nil;
     self.tableSectionIndexBackgroundColor = nil;
     self.tableSectionIndexTrackingBackgroundColor = nil;

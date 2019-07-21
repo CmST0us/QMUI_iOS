@@ -29,6 +29,7 @@
 
 - (instancetype)init {
     if (self = [super init]) {
+        [self didInitialize];
     }
     return self;
 }
@@ -36,8 +37,13 @@
 - (instancetype)initWithCellDataSections:(NSArray<NSArray<QMUIStaticTableViewCellData *> *> *)cellDataSections {
     if (self = [super init]) {
         self.cellDataSections = cellDataSections;
+        [self didInitialize];
     }
     return self;
+}
+
+- (void)didInitialize {
+    
 }
 
 - (void)setCellDataSections:(NSArray<NSArray<QMUIStaticTableViewCellData *> *> *)cellDataSections {

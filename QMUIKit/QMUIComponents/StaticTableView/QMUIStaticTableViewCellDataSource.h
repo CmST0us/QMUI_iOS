@@ -38,6 +38,9 @@
 - (instancetype)init NS_DESIGNATED_INITIALIZER;
 - (instancetype)initWithCellDataSections:(NSArray<NSArray<QMUIStaticTableViewCellData *> *> *)cellDataSections NS_DESIGNATED_INITIALIZER;
 
+// 子类重写
+- (void)didInitialize NS_REQUIRES_SUPER;
+
 @end
 
 
