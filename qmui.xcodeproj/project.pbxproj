@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1178D5692198258700AA30E5 /* NSURL+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1178D5672198258700AA30E5 /* NSURL+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1178D56A2198258700AA30E5 /* NSURL+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1178D5682198258700AA30E5 /* NSURL+QMUI.m */; };
+		4F989CF122E4AFD50092EE90 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4DA9C11E8E3B0500836A1A /* QMUIConfigurationTemplate.m */; };
 		AA8860BA2107455C005E4054 /* QMUIWeakObjectContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8860B82107455C005E4054 /* QMUIWeakObjectContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA8860BB2107455C005E4054 /* QMUIWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8860B92107455C005E4054 /* QMUIWeakObjectContainer.m */; };
 		CD046C412018668900092035 /* QMUILogItem.h in Headers */ = {isa = PBXBuildFile; fileRef = CD046C3F2018668900092035 /* QMUILogItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1404,6 +1405,7 @@
 				CD9D6E6F210C8DEC0004E222 /* QMUILogger+QMUIConfigurationTemplate.m in Sources */,
 				CDB8CBA01DCC870700769DF0 /* UIBezierPath+QMUI.m in Sources */,
 				CDB8CBB01DCC870800769DF0 /* UIControl+QMUI.m in Sources */,
+				4F989CF122E4AFD50092EE90 /* QMUIConfigurationTemplate.m in Sources */,
 				D021DE38205E809500FFA408 /* UICollectionView+QMUICellSizeKeyCache.m in Sources */,
 				CDB8CBE01DCC870800769DF0 /* UIViewController+QMUI.m in Sources */,
 				FE1FBCAA1E8BA61300C6C01A /* UITextField+QMUI.m in Sources */,
