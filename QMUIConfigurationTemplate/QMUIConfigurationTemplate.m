@@ -98,12 +98,14 @@
     QMUICMI.navBarTintColor = UIColorBlue;                                              // NavBarTintColor : QMUINavigationController.navigationBar 的 tintColor，也即导航栏上面的按钮颜色，由于 tintColor 不支持 appearance，所以这里只支持 QMUINavigationController
     
     if (@available(iOS 13.0, *)) {
+#ifdef __IPHONE_13_0
         QMUICMI.navBarTitleColor = [UIColor colorWithDynamicProvider:^UIColor * _Nonnull(UITraitCollection * _Nonnull traitCollection) {
             if (traitCollection.userInterfaceStyle == UIUserInterfaceStyleDark) {
                 return UIColorWhite;
             }
             return UIColorBlack;
         }];
+#endif
     } else {
         QMUICMI.navBarTitleColor = UIColorBlack;
     }
